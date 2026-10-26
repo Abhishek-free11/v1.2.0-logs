@@ -9,9 +9,9 @@
     "core_version": "1.2.5",
     "country": "IND",
     "domain": "ONDC:RET10",
-    "message_id": "5ef6ead2-a264-4819-a101-1f24b58b5001",
-    "timestamp": "2026-10-26T09:04:23.578Z",
-    "transaction_id": "964fd17b-878c-4045-ab43-178a33c594b1",
+    "message_id": "1578f03d-c4ad-4483-9457-1bdfb7a8d5e9",
+    "timestamp": "2026-10-26T09:10:28.621Z",
+    "transaction_id": "3ef8d245-e35a-4590-9392-164cba1fdece",
     "ttl": "PT30S"
   },
   "message": {
@@ -26,13 +26,13 @@
           "name": "FREE11 Test Buyer",
           "state": "Maharashtra"
         },
-        "created_at": "2026-10-26T09:04:20.277Z",
+        "created_at": "2026-10-26T09:10:24.170Z",
         "email": "abhishek@free11.com",
         "name": "FREE11 TECHNOLOGIES PRIVATE LIMITED",
         "phone": "9056193611",
-        "updated_at": "2026-10-26T09:04:20.277Z"
+        "updated_at": "2026-10-26T09:10:24.170Z"
       },
-      "created_at": "2026-10-26T09:04:22.972Z",
+      "created_at": "2026-10-26T09:10:28.034Z",
       "fulfillments": [
         {
           "@ondc/org/TAT": "P2D",
@@ -88,7 +88,7 @@
           "type": "Delivery"
         }
       ],
-      "id": "9e56d8ae34ba",
+      "id": "cf02066d980e",
       "items": [
         {
           "fulfillment_id": "F1",
@@ -133,10 +133,11 @@
         "params": {
           "amount": "200.00",
           "currency": "INR",
-          "transaction_id": "pay_9e56d8ae34ba"
+          "transaction_id": "pay_cf02066d980e"
         },
         "status": "PAID",
-        "type": "ON-ORDER"
+        "type": "ON-ORDER",
+        "uri": "https://snp.com/pg"
       },
       "provider": {
         "id": "P1",
@@ -197,16 +198,32 @@
           "code": "bpp_terms",
           "list": [
             {
-              "code": "np_type",
-              "value": "MSN"
+              "code": "max_liability",
+              "value": "2"
+            },
+            {
+              "code": "max_liability_cap",
+              "value": "10000.00"
+            },
+            {
+              "code": "mandatory_arbitration",
+              "value": "false"
+            },
+            {
+              "code": "court_jurisdiction",
+              "value": "Bengaluru"
+            },
+            {
+              "code": "delay_interest",
+              "value": "7.50"
             },
             {
               "code": "tax_number",
-              "value": "00ABCCH7409R1ZZ"
+              "value": "gst_number_of_sellerNP"
             },
             {
               "code": "provider_tax_number",
-              "value": "ABCDE1234F"
+              "value": "PAN_number_of_provider"
             },
             {
               "code": "accept_bap_terms",
@@ -228,7 +245,7 @@
           ]
         }
       ],
-      "updated_at": "2026-10-26T09:04:23.582Z"
+      "updated_at": "2026-10-26T09:10:28.634Z"
     }
   }
 }

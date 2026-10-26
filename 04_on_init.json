@@ -9,9 +9,9 @@
     "core_version": "1.2.5",
     "country": "IND",
     "domain": "ONDC:RET10",
-    "message_id": "bfec2f5e-c9b5-463d-8067-c10edbbe93c9",
-    "timestamp": "2026-10-26T09:04:20.777Z",
-    "transaction_id": "964fd17b-878c-4045-ab43-178a33c594b1",
+    "message_id": "2b92d34d-1882-45f8-9a41-738571e84507",
+    "timestamp": "2026-10-26T09:10:25.706Z",
+    "transaction_id": "3ef8d245-e35a-4590-9392-164cba1fdece",
     "ttl": "PT30S"
   },
   "message": {
@@ -26,11 +26,11 @@
           "name": "FREE11 Test Buyer",
           "state": "Maharashtra"
         },
-        "created_at": "2026-10-26T09:04:20.277Z",
+        "created_at": "2026-10-26T09:10:24.170Z",
         "email": "abhishek@free11.com",
         "name": "FREE11 TECHNOLOGIES PRIVATE LIMITED",
         "phone": "9056193611",
-        "updated_at": "2026-10-26T09:04:20.277Z"
+        "updated_at": "2026-10-26T09:10:24.170Z"
       },
       "fulfillments": [
         {
@@ -93,7 +93,11 @@
             "settlement_phase": "sale-amount",
             "settlement_type": "neft"
           }
-        ]
+        ],
+        "collected_by": "BPP",
+        "status": "NOT-PAID",
+        "type": "ON-ORDER",
+        "uri": "https://snp.com/pg"
       },
       "provider": {
         "id": "P1",
@@ -153,16 +157,32 @@
           "code": "bpp_terms",
           "list": [
             {
-              "code": "np_type",
-              "value": "MSN"
+              "code": "max_liability",
+              "value": "2"
+            },
+            {
+              "code": "max_liability_cap",
+              "value": "10000.00"
+            },
+            {
+              "code": "mandatory_arbitration",
+              "value": "false"
+            },
+            {
+              "code": "court_jurisdiction",
+              "value": "Bengaluru"
+            },
+            {
+              "code": "delay_interest",
+              "value": "7.50"
             },
             {
               "code": "tax_number",
-              "value": "00ABCCH7409R1ZZ"
+              "value": "gst_number_of_sellerNP"
             },
             {
               "code": "provider_tax_number",
-              "value": "ABCDE1234F"
+              "value": "PAN_number_of_provider"
             }
           ]
         }

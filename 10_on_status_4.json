@@ -9,9 +9,9 @@
     "core_version": "1.2.5",
     "country": "IND",
     "domain": "ONDC:RET10",
-    "message_id": "0e593fcc-a102-4d41-b450-6b88c71963ea",
-    "timestamp": "2026-10-26T09:04:37.844Z",
-    "transaction_id": "964fd17b-878c-4045-ab43-178a33c594b1",
+    "message_id": "1e06533c-0567-4c4c-87f9-3aa694a6904a",
+    "timestamp": "2026-10-26T09:10:40.227Z",
+    "transaction_id": "3ef8d245-e35a-4590-9392-164cba1fdece",
     "ttl": "PT30S"
   },
   "message": {
@@ -26,13 +26,13 @@
           "name": "FREE11 Test Buyer",
           "state": "Maharashtra"
         },
-        "created_at": "2026-10-26T09:04:20.277Z",
+        "created_at": "2026-10-26T09:10:24.170Z",
         "email": "abhishek@free11.com",
         "name": "FREE11 TECHNOLOGIES PRIVATE LIMITED",
         "phone": "9056193611",
-        "updated_at": "2026-10-26T09:04:20.277Z"
+        "updated_at": "2026-10-26T09:10:24.170Z"
       },
-      "created_at": "2026-10-26T09:04:22.972Z",
+      "created_at": "2026-10-26T09:10:28.034Z",
       "documents": [
         {
           "label": "Invoice",
@@ -69,9 +69,10 @@
             },
             "time": {
               "range": {
-                "end": "2026-10-28T09:14:28.698Z",
-                "start": "2026-10-26T09:24:28.698Z"
-              }
+                "end": "2026-10-28T09:20:30.559Z",
+                "start": "2026-10-26T09:30:30.559Z"
+              },
+              "timestamp": "2026-10-26T09:10:30.559Z"
             }
           },
           "id": "F1",
@@ -96,10 +97,10 @@
             },
             "time": {
               "range": {
-                "end": "2026-10-26T09:24:28.698Z",
-                "start": "2026-10-26T09:14:28.698Z"
+                "end": "2026-10-26T09:30:30.559Z",
+                "start": "2026-10-26T09:20:30.559Z"
               },
-              "timestamp": "2026-10-26T09:04:37.847Z"
+              "timestamp": "2026-10-26T09:10:40.236Z"
             }
           },
           "state": {
@@ -139,7 +140,7 @@
           "type": "Delivery"
         }
       ],
-      "id": "9e56d8ae34ba",
+      "id": "cf02066d980e",
       "items": [
         {
           "fulfillment_id": "F1",
@@ -184,10 +185,11 @@
         "params": {
           "amount": "200.00",
           "currency": "INR",
-          "transaction_id": "pay_9e56d8ae34ba"
+          "transaction_id": "pay_cf02066d980e"
         },
         "status": "PAID",
-        "type": "ON-ORDER"
+        "type": "ON-ORDER",
+        "uri": "https://snp.com/pg"
       },
       "provider": {
         "id": "P1",
@@ -243,7 +245,7 @@
         "ttl": "P1D"
       },
       "state": "In-progress",
-      "updated_at": "2026-10-26T09:04:37.847Z"
+      "updated_at": "2026-10-26T09:10:40.236Z"
     }
   }
 }
